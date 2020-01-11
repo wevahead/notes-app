@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 3rem;
+}
+
+main > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    margin: 1rem;
+}
+
+img {
+    border-radius: 50%;
+}
+
+main > * > * {
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+}
+
+input, button {
+    height: 3rem;
+    font-size: 2rem;
+}
